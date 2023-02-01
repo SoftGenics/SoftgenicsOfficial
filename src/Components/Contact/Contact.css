@@ -1,18 +1,21 @@
 .contact-image{
-  height: 80%;
-  margin-bottom: 3rem;
 
 }
 .form-div{
-   background-color: #F1F1EF;
    
+   background:url('/public/images/hero/contact.webp') center center/cover no-repeat !important;
 }
 .btn-submit{
-  background-color: #C19434 !important;
+  background-color:rgb(255, 55, 0)!important;
   border-radius: 4rem;
   border: none;
   float: left;
 }
 .form-cont{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  size: 50%;
 }
+#contact h2{color:white;}
+.over2{ background-color:rgba(1, 4, 11, 0.637)}
+.inputbox{width: 10rem;}

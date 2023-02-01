@@ -6,8 +6,8 @@ const FloatingWhatsapp = () => {
   return (
     <div>
     <FloatingWhatsApp
-        phoneNumber="+919380359418"
-        accountName="Dental-Clinic"
+        phoneNumber="+9199584 80084"
+        accountName="Softgenics Pvt."
         allowClickAway
         notification
         notificationDelay={60000} // 1 minute

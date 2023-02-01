@@ -9,27 +9,39 @@ const NavbarMenu = () => {
     <div className='navstyle'>
          <Navbar collapseOnSelect expand="lg" className='navbarMenu' fixed='top'>
   <Container fluid>
-    <Navbar.Brand href="#"><img src='images/logo.jpg' alt='logo' style={{height:'60px', width:'80px' , marginLeft:'5rem'}}></img></Navbar.Brand>
+ 
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <img src='/images/21.png' className='logo'/>
   <Navbar.Collapse id="responsive-navbar-nav">
+  
+  
       <Nav
         className="ms-auto mx-5 py-4 px-3"
       >
         <Nav.Link  as={Link} to="/"  eventKey={2}  >Home</Nav.Link>
-        <Nav.Link   href="#about"   >About</Nav.Link>
-        <NavDropdown title="Services" id="collasible-nav-dropdown">
-          <NavDropdown.Item  href="#design" >Design</NavDropdown.Item>
-          <NavDropdown.Item  href="#design" >Development</NavDropdown.Item>
-          <NavDropdown.Item  href="#design" >
+        <Nav.Link   href="#footer"   >About</Nav.Link>
+        <NavDropdown title="Services" id="collasible-nav-dropdown"  >
+        <NavDropdown.Item className='dowpH' ></NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  href="#design" >Design</NavDropdown.Item>
+          <NavDropdown.Item className='dowp' href="#design" >Development</NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  href="#design" >
             Marketing
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="#tech" >
-          Our Products
-        </Nav.Link>
-        <Nav.Link  href="#package" >
-          Package
-        </Nav.Link>
+        <NavDropdown title="Solution" id="collasible-nav-dropdown" className='dowpMenu'>
+        <NavDropdown.Item className='dowpH' ></NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  as={Link} to="/Applicationlife"  eventKey={2}>Application Lifecycle Management</NavDropdown.Item>
+          <NavDropdown.Item className='dowp' as={Link} to="/Itservise"  >IT service Management</NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  as={Link} to="/WorkManagement" >Work Management</NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  as={Link} to="/Business" >Business Process Management</NavDropdown.Item>
+          <NavDropdown.Item className='dowp'  as={Link} to="/DataManagement" >Data Management</NavDropdown.Item>
+          
+      
+          <NavDropdown.Item className='dowp' as={Link} to="/Marketing">
+            Marketing
+          </NavDropdown.Item>
+        </NavDropdown>
+        
         <Nav.Link  href="#contact" >
           Contact
         </Nav.Link>

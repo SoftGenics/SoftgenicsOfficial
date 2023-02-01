@@ -1,15 +1,23 @@
 
 .para{
-    text-align: center;
+    color: black;
+    text-align:justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5rem;
-    font-size: medium;
+    font-size:20px;
+
 }
 .why-chos{
-    background-color: burlywood;
-    box-shadow: 2px 2px 2px  rgb(85, 83, 83);
-    border-radius: 20px;
+   
+   
+   
     max-width: 100%;
     overflow-x: hidden;
-    
+    color: black;
 }
+h2{color:rgb(255, 55, 0) !important;
+    font-weight: 600 !important;
+  
+
+    margin-top: 5rem !important;}
+    img{border-radius: 3px;}

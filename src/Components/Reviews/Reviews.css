@@ -9,11 +9,11 @@
 .review h2 span {
   color: #be975b;
 }
-.review .card {
+.wave .cardsize {
   box-shadow: 0px 0px 3px black;
   padding: 1rem;
   width: 98%;
-  height: 25vh;
+  height: 25rem;
 }
 .review .card .fa-user {
   background-color: blue;
@@ -29,7 +29,7 @@
   float: right;
 }
 .rating i{
-  color: rgb(202, 206, 7);
+  color: rgb(255, 251, 16);
   padding: 4px;
   text-shadow: 1px 0px 2px rgb(58, 57, 57);
 }
@@ -42,6 +42,61 @@
 .react-multi-carousel-list  {
   width: 100% !important;
 }
+
+.wave {
+  float: left;
+  margin: 20px;
+  animation: wave  ease-in-out 0.5s infinite alternate;
+  transform-origin: center -36px;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.wave img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 350px;;
+  height:140px;
+}
+.wave figcaption {
+  text-align: center;
+}
+
+.wave:after{
+  content: '';
+  position: absolute;
+  width: 20px; 
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  top: -10px; 
+  left: 50%;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(35deg);
+}
+.wave:before{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  display: block;
+  height: 44px;
+  width: 47px;
+  background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  z-index: 16;
+}
+        
+@keyframes wave {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+
+
 @media (max-width: 468px) {
   .review .card {
       width: 100%;

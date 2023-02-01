@@ -1,20 +1,73 @@
-.imgage{
-    height: 5rem;
-    width: 7rem;
-    outline-width: 2rem;
-    box-shadow:5px 5px 5px #34421E;
+.tech-row .image{
+    height:auto;
+    width: 30rem;
+   
+    
     transition-property: all 2s;
-    border-radius: 50%;
-    border-color: black;
+margin-top:20px;
+    
     
     
 
 }
-.tech-row{
-    padding: 1rem;
+#tech{margin-bottom: 10rem;}
+#tech p{color:rgb(5, 5, 39);
+font-size: 22px;}
+#tech a{text-decoration: none;}
+
+.fontend h3{    background: linear-gradient(to right, #080808 0%,#080808 33%,#080808  65%,#030303 66%,#080808 66%,#040404 100%);
+    height: 3px;
+    width: 50%;
+    margin-left: 25%;
 }
-.imgage:hover{
-    transform: rotateY(50deg);
-    zoom: 1;
-    box-shadow: 8px 8px 8px rgb(6, 199, 54);
+
+.fontend:hover h3{
+    animation: linecolor 1s;
+    height: 3px;
+    width: 50%;
+    margin-left: 25%;
+    background: linear-gradient(to right, #30e496 33% 0%,#30e496 33% 33%,#30e496 33%  65%,#30e496 66%,#30e496 66%,#30e496 100%);
+}
+@keyframes linecolor {
+    0%{     background: linear-gradient(to right, #080808 0%,#080808 33%,#080808  65%,#030303 66%,#080808 66%,#040404 100%);
+
+    }
+    25%{     background: linear-gradient(to right, #30e463 0%,#30e496 33%,#080808  65%,#030303 66%,#080808 66%,#040404 100%);
+
+    }
+    50%{     background: linear-gradient(to right, #30e496 33% 0%,#30e496 33% 33%,#30e496 33%  65%,#080808 66%,#080808 66%,#080808 100%);
+    }
+    100%{     background: linear-gradient(to right, #30e496 33% 0%,#30e496 33% 33%,#30e496 33%  65%,#30e496 66%,#30e496 66%,#30e496 100%);
+    }
+    
+}
+
+#tech h2{color: rgb(6, 6, 50);
+size: 40px;}
+.tech-row .ourWork a{color: rgb(6, 4, 4) !important;
+    padding-top: 20px;
+}
+.tech-row{background: rgba(3, 3, 3, 0.227);
+ 
+   
+}
+.tech-row .ourWork a:hover{color:green;
+
+ }
+ .tech-row .ourWork{padding: 30px;}
+@media screen and(max-width: 768px){
+    #tech .tech-row{
+        padding: 10px !important;
+    
+    }
+  .tech-row img{
+        
+        width: 100px !important;
+       
+        
+        transition-property: all 2s;
+    margin-top:20px;
+        
+};
+    
 }

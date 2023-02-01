@@ -1,38 +1,105 @@
-import React from 'react'
-import { Accordion } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Accordion, Row } from 'react-bootstrap'
+import Card from 'react-bootstrap/Card';
+import { Container ,Col } from "react-bootstrap";
+import Aos from 'aos'
+import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import ReactCardFlip from 'react-card-flip';
+import './Faq.css'
 
 const Faq = () => {
+  const [show, setIsShown]=useState(false)
+  const [show2, setIsShown2]=useState(false)
+  const [show3, setIsShown3]=useState(false)
+  const [show4, setIsShown4]=useState(false)
+  const [show5, setIsShown5]=useState(false)
+  const [show6, setIsShown6]=useState(false)
+
+  
+  
   return (
-    <div style={{margin:'5rem'}} className='faq-con'>
-        <h2 className='about'>FAQs: Web Design & Development</h2>
-        <Accordion defaultActiveKey="0">
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>How Much Do You Charge for Web Design?</Accordion.Header>
-    <Accordion.Body>
-    Our website design packages can be tailored to meet the needs of small and large businesses alike. If you’re not sure which package to choose or need a custom quote, please get in touch.
-    </Accordion.Body>
-  </Accordion.Item>
-  <Accordion.Item eventKey="1">
-    <Accordion.Header>Do you provideb Support services after the website development is complete?</Accordion.Header>
-    <Accordion.Body>
-    Yes, we provide free website maintenance for 1 month after the project is complete. This includes Adding, Deleting, and Modifying text only.
-    </Accordion.Body>
-  </Accordion.Item>
-  <Accordion.Item eventKey="2">
-    <Accordion.Header>Do I have to host my website with you?</Accordion.Header>
-    <Accordion.Body>
-    No, you do not need to host your website with us. We are open to designing a website from scratch or redesigning an existing website.
-    </Accordion.Body>
-  </Accordion.Item>
-  <Accordion.Item eventKey="2">
-    <Accordion.Header>Are you websites SEO friendly?</Accordion.Header>
-    <Accordion.Body>
-    Our websites are technically-sound, responsive, and have a great user experience. They are SEO friendly and will include SEO tools implementation. However, for advanced SEO services such as keyword research, content optimization, and others - please sign up for our SEO services.
-    </Accordion.Body>
-  </Accordion.Item>
-</Accordion>
-    </div>
+    <>
+<h1>Solution</h1>
+<Container fluid >
+<Row >
+<Col md={4} className='d-flex justify-content-center'>
+
+        <Card   as={Link} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false) } 
+                  to={'/ApplicationLife'}   className='cardset'>
+      <Card.Body><Card.Title className='cart-title'>  Application Lifecycle Management</Card.Title>
+      <Card.Img  variant="top" src='images/hero/b3.webp' />
+      
+      </Card.Body>
+    </Card>
+    
+    
+       
+  
+
+</Col>
+<Col md={4} className='d-flex justify-content-center'>
+
+<Card  as={Link} 
+                  to={'/Itservise'}  className='cardset' onMouseEnter={() => setIsShown2(true)} onMouseLeave={() => setIsShown2(false) }>
+      
+      <Card.Body><Card.Title className='cart-title'>It services Management</Card.Title>
+      <Card.Img variant="top" src='images/hero/m1.webp' />
+        
+      </Card.Body>
+      
+    </Card>
+</Col>
+<Col md={4} className='d-flex justify-content-center'>
+<Card as={Link}
+                  to={'/WorkManagement'}  className='cardset'onMouseEnter={() => setIsShown3(true)} onMouseLeave={() => setIsShown3(false) }>
+      <Card.Body> <Card.Title className='cart-title'>Work Management</Card.Title>
+      <Card.Img variant="top" src='images/hero/b3.webp' />
+       
+      </Card.Body>
+    </Card>
+
+</Col>
+<Col md={4} className='d-flex justify-content-center'>
+
+<Card as={Link}
+                  to={'/Marketing'}  className='cardset' onMouseEnter={() => setIsShown4(true)} onMouseLeave={() => setIsShown4(false) }>
+      <Card.Body> <Card.Title className='cart-title'>Marketing</Card.Title>
+      <Card.Img variant="top" src='images/hero/b4.webp' />
+       
+      </Card.Body>
+    </Card> 
+  
+
+</Col>
+<Col md={4} className='d-flex justify-content-center'>
+<Card as={Link}
+                  to={'/Business'}  className='cardset' onMouseEnter={() => setIsShown5(true)} onMouseLeave={() => setIsShown5(false) }>
+      <Card.Body>
+      <Card.Title className='cart-title'>Business Process Management</Card.Title>
+      <Card.Img variant="top" src='images/hero/m8.jpg' />
+        
+      </Card.Body>
+    </Card>
+
+</Col>
+<Col md={4} className='d-flex justify-content-center'>
+<Card as={Link}
+                  to={'/DataManagement'}  className='cardset' onMouseEnter={() => setIsShown6(true)} onMouseLeave={() => setIsShown6(false) }>
+      <Card.Body>
+      <Card.Title className='cart-title'>Data Management</Card.Title>
+      <Card.Img variant="top" src='images/hero/m6.jpg' />
+       
+      </Card.Body>
+    </Card>
+
+</Col>
+</Row>
+</Container>
+    </>
   )
 }
-
+ 
+      
+        
 export default Faq

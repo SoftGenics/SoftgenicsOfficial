@@ -10,9 +10,9 @@ const Header = () => {
     <Container fluid>
     {/* <Navbar.Brand href="#home"></Navbar.Brand> */}
     <Nav className="ms-auto" > </Nav>
-      <Nav.Link href='https://www.facebook.com/profile.php?id=100075713184173' ><FaFacebook/></Nav.Link>
-      <Nav.Link href=' https://www.instagram.com/invites/contact/?i=47yfmt8z04ya&utm_content=nyx3xmx'><FaInstagram/></Nav.Link>
-      <Nav.Link href='https://wa.me/919380359418'><FaWhatsapp/></Nav.Link>
+      <Nav.Link target=" " href='https://www.facebook.com/profile.php?id=100075713184173' ><FaFacebook/></Nav.Link>
+      <Nav.Link target=" " href=' https://www.instagram.com/invites/contact/?i=47yfmt8z04ya&utm_content=nyx3xmx'><FaInstagram/></Nav.Link>
+      <Nav.Link target=" " href='https://wa.me/919380359418'><FaWhatsapp/></Nav.Link>
    
     </Container>
   </Navbar>

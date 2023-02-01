@@ -1,5 +1,5 @@
 .nav{
-    background: #34421E;
+    background: #02011dfd;
 /* background: linear-gradient(0deg, rgba(34,193,195,1) 23%, rgba(81,51,180,1) 100%); */
 }
 .nav-link{
@@ -7,6 +7,6 @@
 }
 .nav .nav-link svg {
     
-    color: #C19434;
+    color: #ffffff;
     font-size: 2rem;
 }

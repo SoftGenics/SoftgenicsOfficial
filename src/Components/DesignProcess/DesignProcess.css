@@ -7,19 +7,74 @@
     
     
 }
-.design-process{
-    margin-left: 11rem;
-    max-width: 100%;
-    overflow-x: hidden;
+h1{color:rgb(255, 55, 0);
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.develop{
+height:auto;
+
+}
+.develop .textprocess{
+    background:rgba(244, 241, 240, 0.195); 
+    padding:50px;
+
+
+width: 100%;}
+
+.develop img{
+    height:auto;
+    width:100% !important;
+  
    
-}
-.arrow{
     
-    margin-right: 1rem;
 }
+
+
 @media only screen and (min-width: 600px){
-    .design-process{margin-left: 0;
+   
+    .develop img{
+        height:auto;
+        width: 400px;
+ 
+       
+        
 
     }
+    .develop .textprocess{position:static;
+        background:rgba(244, 241, 240, 0.195); 
+        padding:50px;
+    
+    
+    width: 100%;}
+    .develop .textprocess{position:absolute ;
+        background:rgba(244, 241, 240, 0.195); 
+        padding:2px;
+       
+    
+    width: 100%;}
 }
-
+@media screen and (max-width: 768px) {
+    
+    .develop img{
+        height:auto;
+        width: 400px;
+        
+    }
+    .develop .textprocess{position:absolute;
+        background:rgba(244, 241, 240, 0.195); 
+        padding:2px;
+       
+    
+    width: 100%;}
+    
+}
+@media screen and (max-width: 412px) {
+   
+    .develop img{
+        height:auto;
+        width: 400px;
+      
+       
+        
+    }
+}

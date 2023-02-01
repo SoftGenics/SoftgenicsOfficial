@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Playfair+Display&family=Poppins:wght@200&family=Signika:wght@300&display=swap');
+
+.auth-modal {
+    padding: auto;
+    margin-top: 20%;
+    
+}
+.auth-modal .modal-header {
+    border-bottom: none !important;
+}
+.auth-modal .modal-header .btn-close {
+    background-color: red !important;
+    border-radius: 50px;
+    color: rgb(241, 235, 235) !important;
+}
+.auth-modal .modal-header .btn-close:hover{
+    translate: translateX(20px);
+}
+.auth-modal .toggler{
+    justify-content: center;
+}
+.auth-modal .toggler .card {
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+}
+.auth-modal .toggler .active {
+    background-color: rgb(29, 148, 2);
+    color: #fff;
+}
+@media screen and(max-width:768px) {
+    .auth-modal .form-control{padding: 10px;
+        width:100% !important;
+      margin-top: 20px;
+      
+      box-shadow: 2px 5px 8px rgb(4, 4, 46);}
+}
+.auth-modal .form-control{margin-top: 10px !important;
+    width:100% !important;
+  margin-top: 20px;  
+
+  }

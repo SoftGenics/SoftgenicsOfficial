@@ -21,7 +21,8 @@ const Contact = () => {
   return (
     <>
     <div className='form-div' id='contact' >
-         <h2 className='about'>Contact Us Now</h2>
+      <div className='over2'>
+         <h1>Contact Us Now</h1>
          <Container data-aos="slide-left">
               <Row>
                    <Col md={6}>
@@ -31,7 +32,7 @@ const Contact = () => {
       Name
     </Form.Label>
     <Col sm={10}>
-      <Form.Control type="text" placeholder="enter your name" name="name" />
+      <Form.Control type="text" placeholder="enter your name" name="name" className='inputbox' />
     </Col>
   </Form.Group>
 
@@ -71,6 +72,7 @@ const Contact = () => {
   </Col>
   </Row>
   </Container>
+  </div>
   </div>
 
     </>

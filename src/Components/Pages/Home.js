@@ -25,19 +25,27 @@ const Home = () => {
         <Header />
         <NavbarMenu />
         <HerosSection/> 
-         <Whoweare />
+         {/* <Whoweare /> */}
+         <CustomSoftware/>
+         
+         <DesignProcess/>
         <DesignandDevProcess/>
-        <DesignProcess/>
-        <WorkProcess/>
+        
+        {/* <WorkProcess/> */}
+       
+       
+       
         <OurLatestWork/>
-        <CustomSoftware/>
+        
         <WhyChoose/>
         <Faq/>
-        <PriceTable/>
-        <Contact/>
+        {/* <PriceTable/> */}
+       
         <Reviews/>
         <OfficeAddress/>
         <FloatingWhatsapp/>
+        <Contact/>
+        
         <Footer/>
 
     </div>

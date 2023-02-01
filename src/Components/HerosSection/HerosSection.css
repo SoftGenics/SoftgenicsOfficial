@@ -1,36 +1,35 @@
+
 .hero-container {
-    background: url('/public/images/h2.avif') center center/cover no-repeat; 
-    height: 100vh !important;
+    background: url('/public/images/bgimg.webp') center center/cover no-repeat;  
+    height: 80vh !important;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-    animation: changeBackgroundImage 13s infinite;
+   
     /* margin-top: 13rem; */
     overflow: hidden;
+    
+   
+  
+    
   }
-  @keyframes changeBackgroundImage {
-    15% {
-      background: url('/public/images/h2.avif') center center/cover ;
-    }
-    35% {
-      background: url('/public/images/h3.avif') center center/cover ;
-    }
-    75% {
-      background: url('/public/images/h4.avif') center center/cover ;
-    }
-    100% {
-      background:url('/public/images/h1.webp') center center/cover;
-    }
+  .over{background-color: rgba(0, 0, 0, 0.5);
+  height: 50rem;
+  margin-top: 10%;
+  width: 100%!important;
   }
+
+  
   .hero-container > span {
     color: #fff;
-    font-size: 100px;
+    font-size: 60px;
     margin-top: 30px !important;
     margin-left: 50px;
     font-weight: 700;
+    
   }
   
   .hero-container > p {
@@ -38,15 +37,14 @@
     color:  gold!important; 
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, serif;
       margin-left: 50px;
       text-shadow: 5px -1px 2px rgba(0,0,0,0.9);
   }
   .hero-btns {
     margin-top: 32px;
     margin-left: 3rem;
-    color: goldenrod;
+    color:blue;
   }
   
   .hero-btns .btn {
@@ -65,8 +63,15 @@
     
     }
   }
+  .hero-container .design{color: rgb(255, 55, 0);
+  font-size: 25px}
   
   @media screen and (max-width: 768px) {
+    .form-control{padding: 10px;
+      width:100% !important;
+    margin-top: 0px !important;
+    
+    box-shadow: 2px 5px 8px rgb(4, 4, 46);}
     .hero-container > h1 {
       font-size: 50px;
       margin-top: -100px;
@@ -76,15 +81,18 @@
       margin-top: 0;
     }
   
-    .hero-container > p {
-      font-size: 25px;
+    .hero-container .over p {
+      font-size: 15px;
       text-align: center;
       margin-top: 30px;
+      color:rgba(210, 197, 197, 0.993) !important;
+
     }
     .hero-container > span {
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
-      font-weight: 700;
+      font-weight: 200;
+      margin-top: 40px;
     }
   
     .btn-mobile {
@@ -95,17 +103,38 @@
     .hero-btns {
       width: 50%;
       margin-left: 0rem;
+      
     }
+    .hero-container .heroFont span{ margin-top: 50px;
+      font-size: 40px !important;
+      color:white !important;
+      font-weight:500;
+     
+    }
+    .hero-container .btn-booking{
+      background-color: rgb(255, 55, 0) !important;
+      border-width: 0px!important; 
+      border-radius: 8px !important;
+      margin-left: 1rem !important;
+      padding: 10px 30px !important;
+      text-decoration: none;
+      color:white;
+      width: 15rem;
+    
+      
+    }
+
   }
-  .hero-container .btn-booking a {
-    background-color: goldenrod !important;
+  .hero-container .btn-booking{
+    background-color: rgb(255, 55, 0) !important;
     border-width: 0px!important; 
-    border-radius: 2rem !important;
+    border-radius: 8px !important;
     margin-left: 1rem !important;
     padding: 10px 30px !important;
     text-decoration: none;
-    color: black;
-    box-shadow: 5px 5px 0px 0px black;
+    color:white;
+    width: 15rem;
+  
     
   }
   .bookonline-btnss:hover {
@@ -120,3 +149,27 @@
   .btnss-wrapper{
     width: 60rem;
   }
+  
+.bookonline .form-control{padding: 10px;
+  width:100% !important;
+margin-top: 20px;
+
+box-shadow: 2px 5px 8px rgb(4, 4, 46);}
+
+
+.heroFont{font-size: 8rem !important;
+  color:white !important;
+  font-weight:500;
+  font-family:'emboss';
+ 
+}
+
+.formhead{color: rgb(1, 1, 36);}
+.submit{background-color: rgb(2, 6, 35);
+  width:100% !important;
+color: #fff;
+border-radius: 4px;}
+.bookonline{margin-top: -50px !important;
+
+}
+
