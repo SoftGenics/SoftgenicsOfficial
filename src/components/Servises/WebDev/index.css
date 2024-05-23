@@ -1,0 +1,360 @@
+.web-dev-top-webdevlopment {
+    background-image: url('../../../Assets/background_red.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    padding-top: 50px;
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    .web-dev-top-webdevlopment{
+        height: 40vh;
+    }
+}
+
+.web-devlopment-heading {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .web-devlopment-heading{
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+.schoollogo2 {
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .schoollogo2{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.web-devlopment-description {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 1.2; */
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .web-devlopment-description{
+        font-size: 13px;
+        width: 90%;
+    }
+}
+
+
+.text-modified {
+    font-size: 50px;
+    font-weight: 400;
+}
+@media screen and (max-width: 768px){
+    .text-modified{
+        font-size: 43px;
+    }
+}
+
+.web-dev-top-webdevlopment-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    /* height: 70vh; */
+    padding-bottom: 50px;
+}
+
+.webdesign-image {
+    position: absolute;
+    top: 137vh;
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .webdesign-image{
+        top: 80vh;
+        height: 300px;
+    }
+}
+
+
+.webdev-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-top: 24%;
+    padding-bottom: 60px;
+}
+@media screen and (max-width: 768px){
+    .webdev-description{
+        margin-top: 55%;
+    }
+}
+
+.webdev-heading-new {
+    color: #000;
+    font-size: 42px;
+    font-weight: 600;
+    /* line-height: 1.2; */
+    text-align: left;
+    /* margin-bottom: 0px; */
+}
+
+.webdev-description-new {
+    /* margin-top: 0px; */
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 3rcap;
+    text-align: left;
+}
+
+
+.our-fasilities-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .our-fasilities-home-container {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* css cerd effect */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.snip1584 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    height: 240px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+}
+
+.snip1584 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.snip1584:before {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 100%;
+    content: '';
+    background-color: rgba(51, 51, 51, 0.9);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+}
+
+.snip1584 img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+}
+
+.snip1584 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snip1584 h3,
+.snip1584 h5 {
+    margin: 0;
+    opacity: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.snip1584 h3 {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    margin-bottom: 5px;
+}
+
+.snip1584 h5 {
+    font-weight: normal;
+    background-color: #ae895d;
+    padding: 3px 10px;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.snip1584 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.snip1584:hover:before,
+.snip1584.hover:before {
+    top: 10px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.snip1584:hover h3,
+.snip1584.hover h3 {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.snip1584:hover h5,
+.snip1584.hover h5 {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+/* css cerd effect */
+
+.button-web-devlopment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e9d8d8;
+}
+
+.tap-button {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .tap-button {
+        font-size: 7px;
+        font-weight: 400;
+        margin-right: 2px;
+    }
+}
+
+.selected {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.display-image-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.technology-img {
+    width: 150px;
+    /* Set the width of each image */
+    height: 150px;
+    /* Set the height of each image */
+    margin: 5px;
+    /* Add margin between images */
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.technology-img:hover {
+    border: 2px solid green;
+}
+
+/* slide image */
+.silde-image-cont-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    width: 100%;
+
+}
+
+.image-slider {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.image-slider img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+@media screen and (max-width: 768px) {
+    .image-slider img {
+        height: 300px;
+    }
+}
+
+.image-slider img:hover {
+    cursor: pointer;
+}

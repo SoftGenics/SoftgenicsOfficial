@@ -1,0 +1,73 @@
+.aboutus-heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000048;
+    height: 60px;
+}
+
+.about-heading-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+}
+
+.left-heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-style: oblique;
+}
+
+.right-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #26efe9;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.about-background{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 60vh;
+    background-image: url("../../../Assets/aboutbac.jpg");
+    background-size: 100% 100%;
+}
+
+.about-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding: 50px;
+}
+@media screen and (max-width: 767px){
+    .about-description{
+        width: 100%;
+    }
+}
+
+.about-description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about-description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
