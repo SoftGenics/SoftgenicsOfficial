@@ -41,8 +41,9 @@ const ManageItServies = () => (
                         Custom Manage It Servies Software
                     </h1>
                     <p className='erp-main-description'>
-                        In enterprise software development since 1989, Softgenics offers <strong>end-to-end ERP development </strong>
-                        and support to help companies boost the efficiency of their unique business workflows, minimize operational risks, and optimize costs.
+                        {/* In enterprise software development since 1989, Softgenics offers <strong>end-to-end ERP development </strong>
+                        and support to help companies boost the efficiency of their unique business workflows, minimize operational risks, and optimize costs. */}
+                        Since 1989, Softgenics has specialized in <b>enterprise software development</b>, providing comprehensive ERP solutions and support to <strong>"increase"</strong> business <strong>workflow efficiency</strong>, <strong>reduce operational risks</strong>, and <strong>optimize costs</strong>.
                     </p>
                     <div className='link-container-erp'>
                         <Link className='Request-ERP-development'>
@@ -60,34 +61,36 @@ const ManageItServies = () => (
                     <div className='erp-second-text-container'>
 
                         <div className='modifiy-container-for-erp'>
-                            <p className='erp-description'><strong>A Managed IT Services Provider </strong> (MSP) is a trusted partner that oversees your IT infrastructure and software, operating under a Service Level Agreement (SLA). At ScienceSoft, we specialize in supporting companies with intricate and ever-changing infrastructures, offering comprehensive services that span from daily monitoring and management to ongoing optimization and evolution.</p>
-                            <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>As an MSP, SoftGenics offers a wide range of solutions tailored to meet </h1>
-                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>the unique needs of each client. We provide proactive monitoring and maintenance to ensure the smooth operation of your IT environment, </p>
+                            <p className='erp-description'><strong>A Managed IT Services Provider </strong> (MSP)
+                                is a reliable partner responsible for overseeing your IT infrastructure and software through a <b>Service Level Agreement (SLA)</b>. At <b>SoftGenics</b>, we are experts in assisting businesses with sophisticated and <b>evolving infrastructures</b>, delivering a full suite of services that includes <b>daily monitoring</b>, <b>proactive management</b>, and <b>continuous optimization</b> and innovation.</p>
+                            <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>
+                                As an MSP, SoftGenics offers tailored solutions to meet diverse IT needs.
+                            </h1>
+                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>
+                                As an Service Provider, <b>SoftGenics</b> delivers bespoke solutions to address the unique requirements of each client. We provide <b>rigorous monitoring</b> and <b>maintenance</b> to ensure <b>seamless operation</b> and <b>optimal performance</b> of your IT environment.</p>
                         </div>
                         {/* card-view */}
                         <div className='erp-card-container'>
                             <div className='erp-card-main-container'>
                                 <div className='erp-card'>
                                     <img src={ItInfra} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>IT infrastructure assessment</h1>
+                                    <h1 className='erp-card-heading'>Assessment</h1>
                                     <p className='erp-card-description'>
-                                        Analysis of the IT infrastructure state with the focus on scalability, operational efficiency, and security.
-                                    </p>
+                                        Evaluation of the IT infrastructure focusing on scalability, operational efficiency, and security.                                    </p>
                                 </div>
 
                                 <div className='erp-card'>
                                     <img src={infrastuchor} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>IT infrastructure monitoring 24/7</h1>
+                                    <h1 className='erp-card-heading'>24/7 Monitoring </h1>
                                     <p className='erp-card-description'>
-                                        Configuration of tools for infrastructure monitoring and alerting (we commonly opt for Prometheus or Nagios).
-                                    </p>
+                                        Setup of infrastructure monitoring and alerting tools, typically using Prometheus or Nagios.                                    </p>
                                 </div>
 
                                 <div className='erp-card'>
                                     <img src={administator} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>IT infrastructure administration</h1>
+                                    <h1 className='erp-card-heading'>Administration</h1>
                                     <p className='erp-card-description'>
-                                        User administration, regular software configuration and updates.
+                                        Management of user administration, routine software configuration, and updates.
                                     </p>
                                 </div>
                             </div>
@@ -99,24 +102,22 @@ const ManageItServies = () => (
                             <div className='erp-card-main-container'>
                                 <div className='erp-card'>
                                     <img src={elpdext} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>IT help desk</h1>
+                                    <h1 className='erp-card-heading'>Help Desk</h1>
                                     <p className='erp-card-description'>
-                                        L3 help desk – resolution of app issues on the code level, advanced infrastructure-related problems and requests.
-                                    </p>
+                                        Providing L3 help desk support for resolving code-level application issues and addressing advanced infrastructure-related problems and requests.                                    </p>
                                 </div>
 
                                 <div className='erp-card'>
                                     <img src={cloudmanag} alt='common' style={{ height: "170px", width: "100%" }} />
                                     <h1 className='erp-card-heading'>Cloud management</h1>
                                     <p className='erp-card-description'>
-                                        and multi-cloud infrastructure management.<br />Deployment of cloud infrastructures.
-                                        <br />Applications and data migration to the cloud.
+                                        Managing multi-cloud infrastructures, deploying cloud solutions, and migrating applications and data seamlessly to the cloud.
                                     </p>
                                 </div>
 
                                 <div className='erp-card'>
-                                    <img src={applicationservis} alt='' style={{ height: "90px", width: "100px" }} />
-                                    <h1 className='erp-card-heading'>Managed application services</h1>
+                                    <img src={applicationservis} alt='' style={{ height: "170px", width: "100%" }} />
+                                    <h1 className='erp-card-heading'>Application services</h1>
                                     <p className='erp-card-description'>
                                         Application evolution with continuous delivery of new features and design experiments.
                                     </p>
@@ -129,8 +130,8 @@ const ManageItServies = () => (
                         <div className='erp-card-container'>
                             <div className='erp-card-main-container'>
                                 <div className='erp-card'>
-                                    <img src={qulityControl} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>Managed DevOps</h1>
+                                    <img src={qulityControl} alt='common' style={{ height: "180px", width: "100%" }} />
+                                    <h1 className='erp-card-heading'>DevOps Management</h1>
                                     <p className='erp-card-description'>
                                         Implementation of a containerization strategy (based on Kubernetes or Apache Mesos).
                                         Design of an automated monitoring solution.
@@ -141,9 +142,7 @@ const ManageItServies = () => (
                                     <img src={securityMang} alt='common' style={{ height: "170px", width: "100%" }} />
                                     <h1 className='erp-card-heading'>Managed security</h1>
                                     <p className='erp-card-description'>
-
-                                        For nine months, SoftGenics provided white-label L1 help desk services to Delap LLP, an established US financial services firm and MSP. By promptly resolving 60% of all the tickets from five of Delap's clients with a 7-minute FTR, we freed up its in-house L2 and L3 support teams.
-
+                                        For nine months, SoftGenics provided white-label L1 help desk services to Delap LLP, a leading US financial services firm and MSP. Swiftly resolving 60% of tickets from five clients with a 7-minute FTR, we freed Delap's in-house L2 and L3 support teams.
                                     </p>
                                 </div>
 
@@ -163,9 +162,9 @@ const ManageItServies = () => (
                             <div className='erp-finacial-main-container'>
                                 <div className='erp-finacial-left'>
                                     <h1 className='erp-finacial-heading'>
-                                        along with strategic planning and consultation to support your long-term goals.
-                                    </h1>
-                                    <p className='erp-finacial-description'>Our team of experienced professionals is dedicated to delivering high-quality services and exceptional customer support. With SoftGenics as your MSP, you can trust that your IT infrastructure is in capable hands, allowing you to focus on your core business objectives with confidence.</p>
+                                        Offering strategic planning and consultation to help achieve your long-term objectives.                                    </h1>
+                                    <p className='erp-finacial-description'>
+                                        At SoftGenics, our seasoned professionals are committed to providing top-notch services and outstanding customer support. Entrusting your IT infrastructure to us as your MSP ensures it's managed with expertise, enabling you to concentrate on your core business objectives with unwavering confidence.                                        </p>
                                 </div>
                                 <div className='erp-finacial-rigth'>
                                     <img src={oldMan} alt='' style={{ width: "100%" }} />
@@ -182,7 +181,7 @@ const ManageItServies = () => (
                             <Link to="/itOut-sourcing" className='table-item'>IT Out Sourceing</Link>
                             <Link to="/It-support" className='table-item'>IT Support</Link>
                             <Link to="/data-analist" className='table-item'>Data Analytics</Link>
-                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>  
+                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>
                         </div>
                     </div>
                     {/* table container */}

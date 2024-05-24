@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+//Trying
 // import Videotest from './components/Test/index'
 import Home from "./components/Home";
 import FinacialServies from './components/Industrius/FinacialServies'
@@ -128,7 +128,7 @@ const App = () => (
       <Route exact path="/finacial-servies" element={<FinacialServies />} />
       <Route exact path="/email" element={<Email />} />
       <Route exact path="/contact-us" element={<ContactBtn />} />
-      
+
     </Routes>
   </BrowserRouter>
 );
