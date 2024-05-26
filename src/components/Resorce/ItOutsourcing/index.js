@@ -10,7 +10,7 @@ import supplyChain from '../../../Assets/supplyChain.png'
 import serviesOper from '../../../Assets/serviesOper.jpg'
 import projectMang from '../../../Assets/projectMang.png'
 import documentMang from '../../../Assets/documentMang.jpg'
-import knowegeMang from '../../../Assets/knowegeMang.png'
+import knowledgeImage from '../../../Assets/knowledgeImage.svg'
 
 
 import out_sorce from '../../../Assets/out_sorce.jpg'
@@ -41,12 +41,11 @@ const DataAnalist = () => (
                         IT Outsourcing Services
                     </h1>
                     <p className='erp-main-description'>
-                        <strong>Optimize Current Operations. Launch New Projects.</strong><br /> <br />  <br />
-                        IT outsourcing services include application development, infrastructure and software support and maintenance, data center management, and other initiatives. With 5 years in It <br />
-                        ScienceSoft takes over any IT tasks you want to outsource or cooperates with your vendors to provide the services.
-                    </p>
+                        <strong>Streamline Operations and Initiate New Ventures</strong><br /> <br />  <br />
+                        IT outsourcing services include application development, infrastructure and software support and maintenance, data center management, and other initiatives.                        <br />
+                        With 5 years in IT, ScienceSoft can manage any IT tasks you want to outsource or work alongside your vendors to deliver these services.                    </p>
                     <div className='link-container-erp'>
-                        <Link className='Request-ERP-development'>Request ItOut Sourcing </Link>
+                        <Link className='Request-ERP-development'>Request Out Sourcing </Link>
                         <Link className='Get-a-cost-estimate'> Get a quote </Link>
                     </div>
                 </div>
@@ -59,9 +58,13 @@ const DataAnalist = () => (
                     <div className='erp-second-text-container'>
 
                         <div className='modifiy-container-for-erp'>
-                            <p className='erp-description'><strong>Outsourcing your IT </strong> needs to a reliable partner can streamline operations and enhance efficiency. SoftGenics offers comprehensive IT outsourcing services tailored to your business requirements. </p>
-                            <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>From software development to infrastructure management,</h1>
-                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>our experienced team ensures seamless integration and optimal performance. With ScienceSoft as your trusted IT outsourcing partner,</p>
+                            <p className='erp-description'>
+                                <strong>Partnering with a dependable provider </strong>
+                                for your IT needs can optimize operations and boost efficiency. SoftGenics delivers tailored IT outsourcing services to meet your specific business requirements.                            </p>
+                            <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>
+                                From software development to infrastructure management,</h1>
+                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>
+                                our skilled team guarantees seamless integration and optimal performance. With SoftGenics as your reliable IT outsourcing partner, you can trust in exceptional service delivery.                            </p>
                         </div>
 
                         {/* card-view */}
@@ -71,7 +74,7 @@ const DataAnalist = () => (
                                     <img src={calculator} alt='common' style={{ height: "170px", width: "100%" }} />
                                     <h1 className='erp-card-heading'>Staff augmentation</h1>
                                     <p className='erp-card-description'>
-                                        Cover resource or skill gaps of your in-house IT team with our experts managed by you directly.
+                                        Bridge resource or skill gaps in your in-house IT team with our experts, managed directly by you.
                                     </p>
                                 </div>
 
@@ -79,7 +82,7 @@ const DataAnalist = () => (
                                     <img src={humanRes} alt='common' style={{ height: "170px", width: "100%" }} />
                                     <h1 className='erp-card-heading'>Self-managed team</h1>
                                     <p className='erp-card-description'>
-                                        Get a self-managed team led by Softgenics PM or Team Lead to carry out your IT initiative.
+                                        Leverage a self-managed team, led by a Softgenics Project Manager or Team Lead, to execute your IT initiatives efficiently.
                                     </p>
                                 </div>
 
@@ -103,19 +106,17 @@ const DataAnalist = () => (
                                         Application support and evolution
                                     </h1>
                                     <p className='erp-card-description'>
-                                        "Empower your sales and marketing teams by streamlining key workflows with seamless application support."
-                                        "Reduce processing time and boost productivity with efficient accounts
+                                        Boost your sales and marketing teams' efficiency by optimizing essential workflows through seamless application integration. Minimize processing time and enhance productivity with streamlined accounts solutions.
                                     </p>
                                 </div>
 
                                 <div className='erp-card'>
-                                    <img src={supplyChain} alt='common' style={{ height: "170px", width: "100%" }} />
+                                    <img src={supplyChain} alt='common' style={{ height: "150px", width: "60%", marginTop: "4%" }} />
                                     <h1 className='erp-card-heading'>
-                                        Digital crisis management and response
+                                        Navigating Digital Crisis
                                     </h1>
                                     <p className='erp-card-description'>
-                                        "Minimize data entry errors and ensure accurate financial reporting through meticulous general ledger management backed by reliable application support."
-                                    </p>
+                                        Empower your organization to navigate digital crises seamlessly with our expert guidance and strategic solutions.                                                                            </p>
                                 </div>
 
                                 <div className='erp-card'>
@@ -124,7 +125,7 @@ const DataAnalist = () => (
                                         Cloud application development
                                     </h1>
                                     <p className='erp-card-description'>
-                                        Prevent costly downtime and ensure uninterrupted business operations with proactive application support.
+                                        Elevate your business with cutting-edge cloud application development tailored to your unique needs.
                                     </p>
                                 </div>
                             </div>
@@ -135,29 +136,26 @@ const DataAnalist = () => (
                         <div className='erp-card-container'>
                             <div className='erp-card-main-container'>
                                 <div className='erp-card'>
-                                    <img src={projectMang} alt='' style={{ height: "100px", width: "100px" }} />
+                                    <img src={projectMang} alt='' style={{ height: "150px", width: "60%", marginTop: "20px" }} />
                                     <h1 className='erp-card-heading'>Project management</h1>
                                     <p className='erp-card-description'>
-                                        Reduce the risk of data breaches and security vulnerabilities through ongoing application maintenance and updates."
-                                        "Maximize software ROI by extending the lifespan of your applications
+                                        Drive success with efficient project management solutions, designed to optimize workflow and deliver exceptional results.
                                     </p>
                                 </div>
 
                                 <div className='erp-card'>
-                                    <img src={documentMang} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>Document management</h1>
+                                    <img src={documentMang} alt='common' style={{ height: "160px", width: "80%" }} />
+                                    <h1 className='erp-card-heading'>Document Manage</h1>
                                     <p className='erp-card-description'>
-                                        Increase user satisfaction and adoption rates with responsive and helpful application support."
-                                        "Empower users with the knowledge and resources they need to get the
+                                        Streamline your operations with robust document management solutions, ensuring secure and efficient handling of your critical information.
                                     </p>
                                 </div>
 
                                 <div className='erp-card'>
-                                    <img src={knowegeMang} alt='common' style={{ height: "170px", width: "100%" }} />
+                                    <img src={knowledgeImage} alt='common' style={{ height: "120px", width: "60%", paddingTop: "20px" }} />
                                     <h1 className='erp-card-heading'>Knowledge management</h1>
                                     <p className='erp-card-description'>
-                                        most out of your applications."
-                                        "Improve communication and collaboration across teams with integrated application support services."
+                                        Enhance your organization’s efficiency with comprehensive knowledge management solutions, facilitating seamless information sharing and retention.
                                     </p>
                                 </div>
                             </div>
@@ -168,9 +166,9 @@ const DataAnalist = () => (
                             <div className='erp-finacial-main-container'>
                                 <div className='erp-finacial-left'>
                                     <h1 className='erp-finacial-heading'>
-                                        you can focus on core business activities while we take care of your IT needs, providing cost-effective solutions and reliable support.
-                                    </h1>
-                                    <p className='erp-finacial-description'>For the second year in a row, SOFTGENICS USA Corporation ranks among 500 American companies with the highest revenue growth. This achievement is the result of our unfailing commitment to provide high-quality IT services and create best-value solutions that meet and even exceed our clients’ expectations.</p>
+                                        Streamlined IT Solutions for Business Efficiency                                    </h1>
+                                    <p className='erp-finacial-description'>
+                                        For the second consecutive year, SOFTGENICS USA Corporation ranks among the top 500 American companies for highest revenue growth. This accomplishment reflects our unwavering dedication to delivering superior IT services and crafting best-value solutions that consistently surpass our clients' expectations.                                        </p>
                                 </div>
                                 <div className='erp-finacial-rigth'>
                                     <img src={erpfinacial} alt='' style={{ width: "100%" }} />
@@ -188,7 +186,7 @@ const DataAnalist = () => (
                             <Link to="/itOut-sourcing" className='table-item'>IT Out Sourceing</Link>
                             <Link to="/It-support" className='table-item'>IT Support</Link>
                             <Link to="/data-analist" className='table-item'>Data Analytics</Link>
-                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>  
+                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>
                         </div>
 
                     </div>
