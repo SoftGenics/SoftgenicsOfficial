@@ -41,10 +41,9 @@ const ItSupport = () => (
                         IT Support Services
                     </h1>
                     <p className='erp-main-description'>
-                        Information technology (IT) support comprises procedures intended to maintain failsafe IT workflows and reduce IT costs. Softgenics IT support services are backed with
-                        <strong> 5 years of experience in help desk and application support</strong><br /> <br />
-                        and include IT help desk, Network Operations Center (NOC) and software support to guarantee superior user experience and on-the-go improvement of your IT processes.
-                    </p>
+                        Information technology (IT) support encompasses strategies designed to ensure reliable IT workflows and minimize costs. Softgenics IT support services are backed by 5 years of expertise in help desk and application support.
+                        <br /> <br />
+                        That include IT help desk, Network Operations Center (NOC), and software support to ensure exceptional user experiences and continuous enhancement of your IT processes.                    </p>
                     <div className='link-container-erp'>
                         <Link className='Request-ERP-development'> Request It Support </Link>
                         {/* <Link className='Get-a-cost-estimate'> Get a cost estimate </Link> */}
@@ -59,9 +58,11 @@ const ItSupport = () => (
                     <div className='erp-second-text-container'>
 
                         <div className='modifiy-container-for-erp'>
-                            <p className='erp-description'><strong>Forge a lasting partnership,</strong> unlock enduring success. SoftGenics isn't just your custom ERP developer, we're your journey partner. Our comprehensive support extends beyond initial implementation, providing continuous updates, maintenance,</p>
+                            <p className='erp-description'>
+                                <b>Build a lasting partnership</b>  and <b>achieve enduring success</b>. SoftGenics is more than just your custom ERP developer; we are your dedicated journey partner. Our comprehensive support extends beyond initial implementation, offering continuous updates, maintenance.</p>
                             <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>Turn data into actionable insights, power your progress. </h1>
-                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>and expert advice to ensure your system evolves in tandem with your business. Let us be your trusted technology advisor, driving your success from day one.</p>
+                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>
+                                With our expert guidance to ensure your system evolves with your business. Trust us as your technology advisor, driving your success from day one.                                </p>
                         </div>
 
                         {/* card-view */}
@@ -163,9 +164,10 @@ const ItSupport = () => (
                             <div className='erp-finacial-main-container'>
                                 <div className='erp-finacial-left'>
                                     <h1 className='erp-finacial-heading'>
-                                        Forge a lasting partnership, unlock enduring success. Sftgenics isn't just your custom ERP developer, we're your journey partner.
-                                    </h1>
-                                    <p className='erp-finacial-description'>FOur comprehensive support extends beyond initial implementation, providing continuous updates, maintenance, and expert advice to ensure your system evolves in tandem with your business. Let us be your trusted technology advisor, driving your success from day one.</p>
+                                        Forge a lasting partnership and unlock enduring success. Softgenics is more than just your custom ERP developer; we are your strategic journey partner.                                    </h1>
+                                    <p className='erp-finacial-description'>
+                                        Four comprehensive support extends beyond initial implementation, providing continuous updates, maintenance, and expert advice to ensure your system evolves in tandem with your business. Let us be your trusted technology advisor, driving your success from day one.
+                                    </p>
                                 </div>
                                 <div className='erp-finacial-rigth'>
                                     <img src={erpfinacial} alt='' style={{ width: "100%" }} />
@@ -183,7 +185,7 @@ const ItSupport = () => (
                             <Link to="/itOut-sourcing" className='table-item'>IT Out Sourceing</Link>
                             <Link to="/It-support" className='table-item'>IT Support</Link>
                             <Link to="/data-analist" className='table-item'>Data Analytics</Link>
-                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>  
+                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>
                         </div>
 
                     </div>
