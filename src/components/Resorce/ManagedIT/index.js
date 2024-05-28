@@ -41,11 +41,13 @@ const DataAnalist = () => (
                         Data Analytics Services
                     </h1>
                     <p className='erp-main-description'>
-                        <strong>Even the Most Voluminous and High-Velocity Data Will Be Organized</strong><br /> <br />
-                        Data analytics implies building an infrastructure for data aggregation, analysis, and reporting. 5 years in data analytics services, ScienceSoft delivers tailored business analytics solutions and helps companies plan future actions based on historical insights.
+                        <strong>
+                            Even the most abundant and rapidly flowing data will be systematically arranged.
+                        </strong><br /> <br />
+                        Data analytics involves creating an infrastructure for data collection, examination, and reporting. With 5 years of experience in data analytics services, SoftGenics provides customized business analytics solutions and assists companies in planning future actions based on historical insights.
                     </p>
                     <div className='link-container-erp'>
-                        <Link className='Request-ERP-development'> share your needs </Link>
+                        <Link className='Request-ERP-development'> Share your needs </Link>
                         <Link className='Get-a-cost-estimate'> Get a cost estimate </Link>
                     </div>
                 </div>
@@ -177,7 +179,7 @@ const DataAnalist = () => (
                             <Link to="/itOut-sourcing" className='table-item'>IT Out Sourceing</Link>
                             <Link to="/It-support" className='table-item'>IT Support</Link>
                             <Link to="/data-analist" className='table-item'>Data Analytics</Link>
-                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>  
+                            <Link to="/manage-it-servies" className='table-item'>Managed IT Service</Link>
                         </div>
                     </div>
                     {/* table container */}

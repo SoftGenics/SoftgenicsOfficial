@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from "react-icons/io";
 
-import erpfinacial from '../../../Assets/erpfinacial.jpg'
+// import erpfinacial from '../../../Assets/erpfinacial.jpg'
 import serviesOper from '../../../Assets/serviesOper.jpg'
 
 
@@ -44,16 +44,18 @@ const DataAnalist = () => (
                         Data Analytics Services
                     </h1>
                     <p className='erp-main-description'>
-                        <strong>Even the Most Voluminous and High-Velocity Data Will Be Organized</strong><br /> <br />
-                        Data analytics implies building an infrastructure for data aggregation, analysis, and reporting. 5 years in data analytics services, SoftGenics delivers tailored business analytics solutions and helps companies plan future actions based on historical insights.
+                        <strong>
+                            Even the most abundant and rapidly flowing data will be systematically arranged.
+                        </strong><br /> <br />
+                        Data analytics involves creating an infrastructure for data collection, examination, and reporting. With 5 years of experience in data analytics services, SoftGenics provides customized business analytics solutions and assists companies in planning future actions based on historical insights.
                     </p>
                     <div className='link-container-erp'>
-                        <Link className='Request-ERP-development'> share your needs </Link>
+                        <Link className='Request-ERP-development'> Share your needs </Link>
                         <Link className='Get-a-cost-estimate'> Get a cost estimate </Link>
                     </div>
                 </div>
                 <div className='erp-midell-container'>
-                    <img className='banner-image-responsiv' src={data_analist} />
+                    <img className='banner-image-responsiv' src={data_analist} alt="imageGoesHere" />
                 </div>
             </div>
             <div className='erp-second-container'>
@@ -61,10 +63,11 @@ const DataAnalist = () => (
                     <div className='erp-second-text-container'>
 
                         <div className='modifiy-container-for-erp'>
-                            <p className='erp-description'><strong>functionality to address an enterprise’s </strong>
-                                Harnessing the power of data across 30+ industries, SoftGenics empowers businesses to unlock transformative insights from their data, driving success at both departmental and enterprise levels.</p>
+                            <p className='erp-description'><strong>Harnessing the power of data across 30+ industries, </strong>
+                                SoftGenics enables enterprises to derive transformative insights, driving success at both departmental and organizational levels. Their data analytics solutions empower businesses to fully leverage their data, fostering informed decision-making and strategic growth.
+                            </p>
                             <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>Building Data Analytics Solutions for Different Domains</h1>
-                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>Tailored data analytics solutions for diverse industries: Softgenics helps businesses in retail, healthcare, finance, and more turn data into actionable intelligence across departments and the entire organization."</p>
+                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>Tailored data analytics solutions for diverse industries: Softgenics helps businesses in retail, healthcare, finance, and more turn data into actionable intelligence across departments and the entire organization.</p>
                         </div>
 
                         {/* card-view */}
@@ -82,13 +85,13 @@ const DataAnalist = () => (
                                     <img src={Healthcareanalytics} alt='common' style={{ height: "170px", width: "100%" }} />
                                     <h1 className='erp-card-heading'> Understanding User Behavior</h1>
                                     <p className='erp-card-description'>
-                                        We delve into user behavior patterns to identify areas of improvement and optimize the online experience for maximum engagement and conversion.
+                                        We analyze user behavior patterns to pinpoint areas for enhancement and optimize the online experience, ensuring maximum engagement and conversion rates.
                                     </p>
                                 </div>
 
                                 <div className='erp-card'>
                                     <img src={Retailanalytics} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'> Data Quality Assurance</h1>
+                                    <h1 className='erp-card-heading'>Quality Assurance</h1>
                                     <p className='erp-card-description'>
                                         We ensure the accuracy, completeness, and reliability of data through rigorous quality assurance processes, enabling confident decision-making based on trustworthy information.
                                     </p>
@@ -102,7 +105,7 @@ const DataAnalist = () => (
                             <div className='erp-card-main-container'>
                                 <div className='erp-card'>
                                     <img src={Supplychainmanagement} alt='common' style={{ height: "170px", width: "100%" }} />
-                                    <h1 className='erp-card-heading'>Customized Analytical Solutions</h1>
+                                    <h1 className='erp-card-heading'>Custom Analytical Solutions</h1>
                                     <p className='erp-card-description'>
                                         SoftGenics tailors analytical solutions to meet the unique needs and objectives of each client, providing customized dashboards, reports, and visualizations for intuitive data interpretation.
                                     </p>
@@ -147,7 +150,7 @@ const DataAnalist = () => (
                                 </div>
 
                                 <div className='erp-card'>
-                                    <img src={FrankBaader} alt='common' style={{ height: "170px", width: "100%" }} />
+                                    <img src={FrankBaader} alt='common' style={{ height: "140px", width: "70%", marginTop: "3%" }} />
                                     <h1 className='erp-card-heading'> Training and Support</h1>
                                     <p className='erp-card-description'>
                                         SoftGenics provides comprehensive training and support to empower clients in leveraging data analysis tools and techniques effectively, enabling them to harness the full potential of their data assets.
@@ -164,7 +167,7 @@ const DataAnalist = () => (
                                         Strategic Guidance: With our expertise in data analysis and industry best practices, SoftGenics offers
                                     </h1>
                                     <p className='erp-finacial-description'>
-                                        strategic guidance to help clients capitalize on emerging opportunities, mitigate risks, and achieve their business objectives through informed decision-making.
+                                        Strategic guidance to help clients capitalize on emerging opportunities, mitigate risks, and achieve their business objectives through informed decision-making.
                                     </p>
                                 </div>
                                 <div className='erp-finacial-rigth'>
