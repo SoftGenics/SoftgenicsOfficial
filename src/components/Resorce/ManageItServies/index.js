@@ -53,7 +53,7 @@ const ManageItServies = () => (
                     </div>
                 </div>
                 <div className='erp-midell-container'>
-                    <img className='banner-image-responsiv' src={ItManagement} />
+                    <img className='banner-image-responsiv' src={ItManagement} alt="image_goes_here" />
                 </div>
             </div>
             <div className='erp-second-container'>
