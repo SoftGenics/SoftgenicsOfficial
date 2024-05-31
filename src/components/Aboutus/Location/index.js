@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from "react-icons/io";
-import erpfinacial from '../../../Assets/erpfinacial.jpg'
+// import erpfinacial from '../../../Assets/erpfinacial.jpg'
 
 import map from '../../../Assets/map.jpg'
 import globle_network from '../../../Assets/globle_network.jpg'
@@ -42,7 +42,7 @@ const Location = () => (
                     </div>
                 </div>
                 <div className='erp-midell-container'>
-                    <img className='banner-image-responsiv' src={globle_network} />
+                    <img className='banner-image-responsiv' src={globle_network} alt="image_goes_here" />
                 </div>
             </div>
             <div className='erp-second-container'>
@@ -50,9 +50,11 @@ const Location = () => (
                     <div className='erp-second-text-container'>
 
                         <div className='modifiy-container-for-erp'>
-                            <p className='erp-description'><strong>Sofgenics india Pvt. Ltd. is headquartered in </strong>McKinney, Texas  and has 7 representative offices in 3 continents</p>
+                            <p className='erp-description'>
+                                Sofgenics India Pvt. Ltd., headquartered in <b>McKinney, Texas</b>, operates 7 representative offices across 3 continents.                            </p>
                             <h1 className='erp-sub-heading' style={{ textDecoration: "underLine" }}>Thinking Globally, Acting Locally</h1>
-                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>. We continuously expand our international presence to tap into local talents and efficiently cooperate with local industry leaders and startups.</p>
+                            <p className='erp-description' style={{ border: "none", marginBottom: "20px", marginTop: "0px" }}>
+                                We continuously expand our <b>international presence</b> to tap into <b>local talent</b> and effectively collaborate with <b>local industry leaders</b> and startups.                            </p>
                         </div>
 
 
@@ -61,9 +63,9 @@ const Location = () => (
                             <div className='erp-finacial-main-container'>
                                 <div className='erp-finacial-left'>
                                     <h1 className='erp-finacial-heading'>
-                                        At SoftGenics, we're proud to be a leading provider of Sofgenics in Patna. We're passionate about serving our community and offering high-quality solutions to our customers.
-                                    </h1>
-                                    <p className='erp-finacial-description'>Thrilled to announce the opening of our new location in Patna! We're excited to bring our Software/services to the local community and can't wait to meet you! Stop by and say hello!</p>
+                                        At SoftGenics, we are proud to be a leading provider of <b>Sofgenics</b> in Patna. We are dedicated to serving our community and delivering <b>high-quality solutions</b> to our customers.                                    </h1>
+                                    <p className='erp-finacial-description'>
+                                        We are thrilled to announce the opening of our new location in <b>Patna</b>! We are excited to bring our <b>software and services</b> to the local community and look forward to meeting you. Please stop by and say hello!                                        </p>
                                 </div>
                                 <div className='erp-finacial-rigth'>
                                     <img src={map} alt='' style={{ width: "100%" }} />
