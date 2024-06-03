@@ -1,0 +1,155 @@
+.home-main-container-test {
+  position: relative;
+  overflow: hidden;
+  /* height: 67vh;  */
+  height: 75vh;
+  margin-top: 160px;
+  margin-bottom: 0px;
+  /* z-index: -1; */
+}
+
+@media (max-width: 768px) {
+  .home-main-container-test{
+    margin-top: 100px;
+    height: 30vh;
+  }
+}
+
+.background-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.background-slide.active {
+  opacity: 1;
+}
+
+.overlay-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 62%;
+  height: 300px;
+  position: absolute;
+  /* color: rgb(255, 255, 255);  */
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: oblique;
+  /* line-height: 40px; */
+  top: 60%; /* Center the text vertically */
+  left: 2%; /* Center the text horizontally */
+  /* Unique color text shadow */
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8), -2px -2px 4px rgba(0, 255, 255, 0.8);
+}
+@media screen and (max-width: 767px){
+  .overlay-text{
+    top:40%;
+    width: 80%;
+  }
+}
+
+.higthlight{
+  color: #ffffff; /* White text color */
+  background-color: #ff4d4d; 
+  /* background-color: yellow; */   
+  padding: 10px 10px; /* Padding for spacing around the highlighted text */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  text-transform: uppercase; /* Convert text to uppercase for emphasis */
+  letter-spacing: 1px; /* Increased letter spacing for visual impact */
+  font-weight: 700; /* Strong font weight for boldness */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  margin: 10px;   
+}
+
+@media (max-width: 768px) {
+  .higthlight {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .higthlight {
+      font-size: 6px;
+      font-weight: 400;
+      padding: 2px 4px;
+  }
+}
+
+.background-image-con {
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .background-image-con {
+      height: 100%;
+  }
+}
+
+.background-video {
+  /* object-fit: cover; */
+  /* height: 600px;
+  width: 1665px; */
+  width: 100%; /* Ensure the video takes the full width of its container */
+  height: 100%; /* Let the height adjust to maintain aspect ratio */
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .background-video {
+      height: 100%;
+  }
+}
+
+/* Responsive styles */
+
+.overlay-heading{
+  font-size: 40px;
+  color: yellow;
+  font-weight: 700;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .overlay-heading {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-heading {
+      font-size: 16px;
+  }
+}
+
+.overay-description{
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0px;
+  /* color: yellow; */
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .overay-description {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overay-description {
+      font-size: 11px;
+  }
+}

@@ -1,0 +1,52 @@
+/* Existing style for .slider-main-container */
+.slider-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Additional styling for the slider */
+.slick-slider {
+    width: 34%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the slider within its container */
+}
+@media screen and (max-width: 767px){
+    .slick-slider{
+        width: 100%;
+    }
+}
+
+/* Style for the slider dots (pagination) */
+.slick-dots {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li {
+    margin: 0 5px; /* Adjust the spacing between dots as needed */
+}
+
+.slick-dots li button {
+    font-size: 10px; /* Adjust the font size as needed */
+    background-color: #fff; /* Set the background color */
+}
+
+.crousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.slide-image{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 100%; */
+    padding: 40px;
+}
+

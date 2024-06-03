@@ -1,0 +1,432 @@
+@media screen and (max-width: 767px){
+    .mediaQuryApply{
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.hover-classes:hover{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+/* involving-container */
+.ivolving-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #262338;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 767px){
+    .ivolving-main-container{
+        flex-direction: column;
+    }
+}
+
+
+.involving-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+@media screen and (max-width: 767px){
+    .involving-left-container{
+        width: 80%;
+    }
+}
+
+.ivolving-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-style: oblique;
+    margin-top: 0;
+}
+
+.involing-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-style: oblique;
+    margin-top: 0;
+}
+
+.involving-rigth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px){
+    .involving-rigth-container{
+        width: 80%;
+    }
+}
+.involving-inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.involving-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 40%;
+}
+.digit-container{
+    font-size: 50px;
+    background: linear-gradient(82.48deg,#7abef7 1.81%,#4080f5 43.03%,#7747d5 68.71%,#572ac2 89.75%);
+    font-weight: 700;
+    background-color: transparent;
+}
+/* involving-container */
+
+.mission-container-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .mission-container-main{
+        flex-direction: column;
+    }
+}
+
+.mission-left-container{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 767px){
+    .mission-left-container{
+        width: 100%;
+    }
+}
+
+.mission-rigth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+@media screen and (max-width: 767px){
+    .mission-rigth-container{
+        width: 100%;
+    }
+}
+
+.mission-description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.home-heading{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: oblique;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* font-family: "Sofia", sans-serif; */
+}
+
+@media screen and (max-width: 767px){
+    .devlopment{
+        font-size: 25px;
+    }
+}
+
+.home-description{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+    font-style: oblique;
+}
+
+.span-tag{
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+    font-style: oblique;
+}
+
+.background-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+/* @media screen and (max-width: 767px){
+    .background-image-container{
+        height: 300px;
+    }
+} */
+
+.background-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+}
+@media screen and (max-width: 767px){
+    .background-card-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
+.home-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 767px){
+    .home-card-container{
+        width: 96%;
+        height: auto;
+    }
+}
+
+
+.background-image{
+    width: 100%;
+    height: 300px;
+}
+
+.home-card-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.animated-image{
+    width: 100%;
+    height: 500px;
+}
+@media screen and (max-width: 767px){
+    .animated-image{
+        height: 300px;
+    }
+}
+
+.over-container-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    /* margin-top: 10px; */
+    background-color: #fff;
+}
+@media screen and (max-width: 767px){
+    .over-container-main{
+        flex-direction: column;
+    }
+}
+
+.over-left-container{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 767px){
+    .over-left-container{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.over-rigth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+@media screen and (max-width: 767px){
+    .over-rigth-container{
+        width: 90%;
+        height: 600px;
+        padding: 20px;
+    }
+}
+
+.over-description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.over-heading{
+    color: #14142b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sub-heading{
+    font-family: "HCLTech Roobert",sans-serif;
+    font-size: 35px;
+    font-weight: 450;
+    font-style: Arial;
+    margin-top: 10px;
+    line-height: 2rem;
+}
+.over-description{
+    font-size: 20px;
+    font-weight: 450;
+    font-style: Arial;
+    margin-top: 0px;
+    font-style: oblique;
+    line-height: 1.5rem;
+    color: #fff;
+}
+.li-classes{
+    font-size: 16px;
+    font-weight: 450;
+    font-style: Arial;
+    margin-top: 0px;
+    font-style: oblique;
+    padding-left: 10px;
+}
+
+/* // query container */
+.query-container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .query-container-main{
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+.query-discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 767px){
+    .query-discription{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+.query-discription-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 60%;
+    height: auto;
+}
+@media screen and (max-width: 767px){
+    .query-discription-form{
+        width: 70%;
+    }
+}
+
+/* General styles for input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Add padding for better readability */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Rounded corners */
+  margin-bottom: 10px; /* Add spacing between fields */
+  font-size: 16px; /* Adjust font size */
+  background-color: #fff;
+}
+
+/* Style labels for better association */
+label {
+  display: block;
+  margin-bottom: 5px; /* Create a visual separation */
+  color: #fff;
+}
+
+/* Highlight focused elements */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #333; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Style the select element */
+select {
+  width: 100%; /* Full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Adjust button styles */
+button[type="submit"] {
+  background-color: #ff0000; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Adjust padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+/* * //End query container */ 

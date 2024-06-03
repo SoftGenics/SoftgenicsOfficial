@@ -1,0 +1,407 @@
+.erp-main-bg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    /* background-image: url('../../../Assets/mobiledev.png'); */
+    background-color: #004485;
+}
+
+@media screen and (max-width:767px) {
+    .erp-main-bg-container {
+        /* flex-direction: column; */
+        height: 30vh !important;
+    }
+}
+
+.erp-midell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 42%;
+    padding: 20px;
+    /* border: 1px solid #000; */
+}
+
+.erp-main-heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: oblique;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 3rem;
+}
+
+@media screen and (max-width:767px) {
+    .erp-main-heading {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+}
+
+.erp-main-description {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: oblique;
+    color: #fff;
+    line-height: 1.7rem;
+    margin-top: 2px;
+}
+
+@media screen and (max-width:767px) {
+    .erp-main-description {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: .7rem;
+    }
+}
+
+.link-container-erp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.Request-ERP-development {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "roboto";
+    font-weight: 400;
+    color: #000;
+    background-color: #ffd546;
+    height: 25px;
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .Request-ERP-development {
+        font-size: 10px;
+        font-weight: 400;
+        height: 20px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .link-container-erp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.Get-a-cost-estimate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 24px;
+    padding: 8px 16px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:767px) {
+    .Get-a-cost-estimate {
+        font-size: 10px;
+        font-weight: 400;
+        height: 20px;
+        width: 109px;
+        padding-left: 20px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+.banner-image-responsiv {
+    height: 350px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #afd5ef;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .banner-image-responsiv {
+        height: 150px;
+    }
+}
+
+.erp-second-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 20px;
+    /* height: 100vh; */
+    /* border: 1px solid #000; */
+}
+
+.erp-second-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 86%;
+    margin-top: 50px;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid #000; */
+}
+
+.erp-second-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+@media screen and (max-width:767px) {
+    .erp-second-text-container {
+        align-items: center;
+        width: 95%;
+    }
+}
+
+.modifiy-container-for-erp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.erp-description {
+    font-size: 17px;
+    font-weight: 500;
+    color: #121010;
+    font-style: oblique;
+    margin-bottom: 0px;
+    padding: 10px;
+    line-height: 1.8rem;
+}
+
+.erp-sub-heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.8rem;
+    color: #282C35;
+    font-style: oblique;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.19);
+    text-decoration: none !important;
+    align-self: flex-start;
+    margin-top: 0;
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .modifiy-container-for-erp {
+        width: 85%;
+    }
+}
+
+.erp-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.erp-card-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .erp-card-main-container {
+        flex-direction: column;
+    }
+}
+
+.erp-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #afd5ef;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:767px) {
+    .erp-card {
+        width: 95%;
+        margin-top: 15px;
+    }
+}
+
+.erp-card-heading {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-style: oblique;
+    color: #000;
+    margin-top: 0;
+    /* text-shadow: 1px 1px 2px rgba(19, 149, 101, 0.4), -1px -1px 2px rgba(11, 15, 13, 0.4); */
+    width: 80%;
+}
+
+.erp-card-description {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    font-style: oblique;
+    color: #444E60;
+    margin-top: 0;
+    width: 90%;
+    height: 140px;
+    overflow-y: auto;
+    line-height: 1.6rem;
+    /* text-shadow: 1px 1px 2px rgba(19, 149, 101, 0.4), -1px -1px 2px rgba(11, 15, 13, 0.4); */
+}
+
+.erp-second-text-container-rigth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #afd5ef;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .erp-second-main-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .erp-second-text-container-rigth {
+        width: 86%;
+        margin-top: 10px;
+    }
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.table-item {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: oblique;
+    color: #3087d9;
+    text-decoration: none;
+    padding-bottom: 10px;
+    /* text-shadow: 1px 1px 2px rgba(19, 149, 101, 0.4), -1px -1px 2px rgba(19, 149, 101, 0.4); */
+}
+
+.table-item:hover {
+    color: #004485;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.erp-financial-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.erp-finacial-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    /* background-color: rgba(104, 151, 221, 0.5); */
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 1px solid #afd5ef;
+    padding: 20px;
+    border-bottom: 1px solid #0f865c;
+    /* Text shadow */
+    text-shadow: 1px 1px 2px rgba(19, 149, 101, 0.4), -1px -1px 2px rgba(19, 149, 101, 0.4);
+    background-color: #000;
+}
+
+@media screen and (max-width:767px) {
+    .erp-finacial-main-container {
+        flex-direction: column;
+        width: 85%;
+    }
+}
+
+.erp-finacial-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 40px;
+}
+@media screen and (max-width:767px) {
+    .erp-finacial-left {
+        width: 95%;
+    }
+}
+
+.erp-finacial-rigth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 1px solid #afd5ef; */
+}
+@media screen and (max-width:767px) {
+    .erp-finacial-rigth {
+        width: 95%;
+    }
+}
+
+.erp-finacial-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4087ca;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px rgba(19, 149, 101, 0.4), -1px -1px 2px rgba(19, 149, 101, 0.4);
+    line-height: 2rem;
+}
+
+.erp-finacial-description {
+    font-size: 16px;
+    font-weight: 600;
+    color: #b4abab;
+    font-style: oblique;
+    line-height: 1.7rem;
+}

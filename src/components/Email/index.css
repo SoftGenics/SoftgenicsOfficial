@@ -1,0 +1,67 @@
+/* Styling for the form container */
+.main-form-container {
+    width: 80%; /* Adjust the maximum width as needed */
+    height: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Center the form vertically */
+.main-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-details-heading {
+    font-style: oblique;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #fff; /* Dark gray color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow with offset and blur */
+}
+
+/* Style for the form elements */
+.main-form-container input[type="text"],
+.main-form-container input[type="email"]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.main-form-container textarea{
+    width: 100%;
+    margin: 25px 0;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 150px; /* Adjust the height as needed */
+}
+
+.main-form-container input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Style for the submit button */
+.main-form-container button[type="submit"] {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.main-form-container button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

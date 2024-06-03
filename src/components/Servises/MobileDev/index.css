@@ -1,0 +1,10 @@
+.mobile-devlopent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../../../Assets/mobiledev.png');
+    background-size: 100% 100%;
+}
