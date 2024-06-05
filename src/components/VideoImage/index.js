@@ -92,14 +92,13 @@ const VideoImage = () => {
                 </div>
             </div>
 
-            <div className='background-slide background-image-con active' style={{ backgroundImage: `url(${home})` }}>
-                {/* <div className="overlay-text" style={{ color: "yellow", top: "30%", width: "400px" }}>When you say it, it’s marketing. When they say it, it’s social proof
-                </div> */}
+            <div className='background-slide background-image-con' style={{ backgroundImage: `url(${home})` }}>
+                {/* <div className="overlay-text" style={{ color: "yellow", top: "30%", width: "400px" }}>When you say it, it’s marketing. When they say it, it’s social proof</div> */}
             </div>
 
 
 
-            <div className='background-slide background-image-con' style={{ backgroundImage: `url(${home1})` }}>
+            <div className='background-slide background-image-con active' style={{ backgroundImage: `url(${home1})` }}>
                 <div className="overlay-text" style={{ color: "yellow", top: "30%", width: "80%" }}>When you say it, it’s marketing. When they say it, it’s social proof
                 </div>
             </div>

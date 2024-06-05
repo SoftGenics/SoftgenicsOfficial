@@ -1,4 +1,4 @@
-
+//Updated Saurav 1
 import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from "react-icons/io";
 import calculator from '../../../Assets/calculator.jpg'
@@ -29,7 +29,7 @@ const DataAnalist = () => (
                 <IoIosArrowForward style={{ marginTop: "5px" }} />
                 <Link className='link-classes2'>Service</Link>
                 <IoIosArrowForward style={{ marginTop: "5px" }} />
-                <Link className='link-classes2'> ItOut Sourcing </Link>
+                <Link className='link-classes2'> IT Outsourcing </Link>
             </div>
         </div>
         {/* fixed sub header */}
@@ -50,7 +50,7 @@ const DataAnalist = () => (
                     </div>
                 </div>
                 <div className='erp-midell-container'>
-                    <img className='banner-image-responsiv' src={out_sorce} />
+                    <img className='banner-image-responsiv' src={out_sorce} alt="Image_Goes_Here" />
                 </div>
             </div>
             <div className='erp-second-container'>
