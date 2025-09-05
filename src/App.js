@@ -63,6 +63,12 @@ import OurPartner from './components/Aboutus/OurPartner'
 import Email from './components/Email'
 import ContactBtn from './components/ContactBtn'
 
+// policy
+import ContactUs from './components/Policy/ContactUs'
+import PrivacyPolicy from './components/Policy/PrivacyPolicy'
+import Refund from './components/Policy/Refund'
+import TermsAndConditions from './components/Policy/TermsAndConditions'
+
 import './App.css';
 
 const App = () => (
@@ -128,6 +134,12 @@ const App = () => (
       <Route exact path="/finacial-servies" element={<FinacialServies />} />
       <Route exact path="/email" element={<Email />} />
       <Route exact path="/contact-us" element={<ContactBtn />} />
+
+      {/* Policy */}
+      <Route exact path="/contact-us" element={<ContactUs />} />
+      <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route exact path="/refund" element={<Refund />} />
+      <Route exact path="/terms" element={<TermsAndConditions />} />
 
     </Routes>
   </BrowserRouter>

@@ -103,11 +103,19 @@ const Footer = () => {
 
                     <div className='footer-bottom-main'>
                         <h1 className='footer-heading'>About Softgenics</h1>
-                        <Link to="/about-us" className='link-footer1'>About Company</Link>
+                        <Link to="/about-us" className='link-footer1'>About Us</Link>
                         <Link to="/Experts" className='link-footer1'>Experts</Link>
                         <Link to="/client-review" className='link-footer1'>Client Reviews</Link>
                         <Link to="/our-partner" className='link-footer1'>Our Partners</Link>
                         <Link to="/location" className='link-footer1'>Locations</Link>
+                    </div>
+
+                    <div className='footer-bottom-main'>
+                        <h1 className='footer-heading'> Policy</h1>
+                        <Link to="/client-review" className='link-footer1'>Contact Us</Link>
+                        <Link to="/client-review" className='link-footer1'>Privacy Policy</Link>
+                        <Link to="/our-partner" className='link-footer1'>Terms & Conditions</Link>
+                        <Link to="/location" className='link-footer1'>Refund / Cancellation Policy</Link>
                     </div>
                 </div>
 
