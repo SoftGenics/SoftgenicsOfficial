@@ -112,10 +112,10 @@ const Footer = () => {
 
                     <div className='footer-bottom-main'>
                         <h1 className='footer-heading'> Policy</h1>
-                        <Link to="/client-review" className='link-footer1'>Contact Us</Link>
-                        <Link to="/client-review" className='link-footer1'>Privacy Policy</Link>
-                        <Link to="/our-partner" className='link-footer1'>Terms & Conditions</Link>
-                        <Link to="/location" className='link-footer1'>Refund / Cancellation Policy</Link>
+                        <Link to="/contact" className='link-footer1'>Contact Us</Link>
+                        <Link to="/privacy-policy" className='link-footer1'>Privacy Policy</Link>
+                        <Link to="/terms" className='link-footer1'>Terms & Conditions</Link>
+                        <Link to="/refund" className='link-footer1'>Refund / Cancellation Policy</Link>
                     </div>
                 </div>
 

@@ -34,7 +34,7 @@ export default function Terms() {
       </p>
 
       <p>
-        For queries, contact us at <b>info@softgenics.in</b>
+        For queries, contact us at <b>softgenics.private@gmail.com</b>
       </p>
     </div>
   );

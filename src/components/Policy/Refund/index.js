@@ -10,7 +10,7 @@ export default function Refund() {
       <h2>Service Cancellation</h2>
       <p>
         You may cancel a service request within <b>24 hours</b> of placing it by
-        contacting us at <b>info@softgenics.in</b>.
+        contacting us at <b>softgenics.private@gmail.com</b>.
       </p>
 
       <h2>Refunds</h2>
@@ -31,7 +31,7 @@ export default function Refund() {
       <h2>Contact</h2>
       <p>
         For refund or cancellation requests, please email us at{" "}
-        <b>info@softgenics.in</b>.
+        <b>softgenics.private@gmail.comn</b>.
       </p>
     </div>
   );

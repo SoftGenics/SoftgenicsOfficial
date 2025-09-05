@@ -136,7 +136,7 @@ const App = () => (
       <Route exact path="/contact-us" element={<ContactBtn />} />
 
       {/* Policy */}
-      <Route exact path="/contact-us" element={<ContactUs />} />
+      <Route exact path="/contact" element={<ContactUs />} />
       <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route exact path="/refund" element={<Refund />} />
       <Route exact path="/terms" element={<TermsAndConditions />} />
